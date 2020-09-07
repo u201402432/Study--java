@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.baselet.element.old.allinone.SequenceDiagram</type>
+    <coordinates>
+      <x>70</x>
+      <y>40</y>
+      <w>860</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>title: GroupScheduler
+_GroupAppletClass:A~id1_|_FileStream:Fis~id2_|_Schedule:S~id3_|_CalcultateSchedule:CS~id4_
+id1-&gt;&gt;id2:id1,id2
+id2-&gt;&gt;id1:id2,id1
+id2-&gt;&gt;id3:id2,id3
+id3-&gt;&gt;id2:id3,id2
+id3-&gt;&gt;id4:id3,id4
+id4-&gt;&gt;id3:id4,id3
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
